@@ -15,4 +15,6 @@ http://mamchenkov.net/wordpress/2016/10/31/easier-aws-cli-with-docker/
 * docker build -t aws-cli .
 * create a IAM account in aws
 * not the access_key, access_secret_key
-* run the docker image with your values
+* run the docker image with your values:
+docker run -it --rm -v <your path to git repo>/resources:/aws -e AWS_DEFAULT_REGION='eu-central-1' -e AWS_ACCESS_KEY_ID='[your key]' -e AWS_SECRET_ACCESS_KEY='[your secret key]' aws-cli
+
