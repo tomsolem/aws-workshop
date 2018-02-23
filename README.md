@@ -1,7 +1,9 @@
-# aws-workshop
+# AWS-workshop
 Repo for aws workshop in Bergen
 
-# crudos
+Store any secret key in a folder named "aws-keys-config"
+
+# Crudos
 Docker images based on this:
 Get Dockerfile:
 https://github.com/mikesir87/aws-cli-docker/blob/master/Dockerfile
