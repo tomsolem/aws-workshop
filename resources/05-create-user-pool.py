@@ -1,0 +1,1 @@
+aws cognito-idp create-user-pool --pool-name bgo2018staticweb
